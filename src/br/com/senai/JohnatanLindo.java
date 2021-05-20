@@ -119,13 +119,26 @@ public class JohnatanLindo {
 					else {}
 				}
 				System.out.print("CURSOS:");
-				System.out.println(
-						cursos[0] + "," + cursos[1] + "," + cursos[2] + "," + cursos[3] + "," + cursos[4] + ".");
+				System.out.println(cursos[0] + "," + cursos[1] + "," + cursos[2] + "," + cursos[3] + "," + cursos[4] + ".");
 
 				System.out.println("------");
 				System.out.print("Deseja realizar outra operação?[S/N]: ");
 				opcao = tec.next();
-
+				if(aux == 1) {
+					System.out.println(cursos[0]+".");
+					}
+					else if(aux == 2) {
+						System.out.println(cursos[0]+","+cursos[1]+".");
+					}
+					else if(aux == 3) {
+						System.out.println(cursos[0]+","+cursos[1]+","+cursos[2]+".");
+					}
+					else if(aux == 4) {
+						System.out.println(cursos[0]+","+cursos[1]+","+cursos[2]+","+cursos[3]+".");
+					}
+					else {
+						System.out.println(cursos[0]+","+cursos[1]+","+cursos[2]+","+cursos[3]+","+cursos[4]+".");
+					}
 				break;
 
 			default:
